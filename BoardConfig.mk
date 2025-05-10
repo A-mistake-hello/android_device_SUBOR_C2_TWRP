@@ -11,9 +11,9 @@ DEVICE_PATH := device/hongyao/s20_xbw_gl
 ALLOW_MISSING_DEPENDENCIES := true
 
 # Architecture
-TARGET_ARCH := arm32
+TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a
-TARGET_CPU_ABI := arm32-v7a
+TARGET_CPU_ABI := arm-v7a
 TARGET_CPU_ABI2 := 
 TARGET_CPU_VARIANT := generic
 TARGET_CPU_VARIANT_RUNTIME := generic

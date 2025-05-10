@@ -17,8 +17,8 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/hongyao/s20_xbw_gl/device.mk)
 
 PRODUCT_DEVICE := s20_xbw_gl
-PRODUCT_NAME := V1
-PRODUCT_BRAND := S20
+PRODUCT_NAME := omni_s20_xbw_gl
+PRODUCT_BRAND := hongyao
 PRODUCT_MODEL := V1
 PRODUCT_MANUFACTURER := hongyao
 

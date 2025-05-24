@@ -1,9 +1,8 @@
-# Android device tree for 小霸王Ⅴ1 (s20_xbw_gl)
+# Android device tree for 小霸王c2 (.SUBOR C2)
 
 ```
 #
-# Copyright (C) 2024 The Android Open Source Project
-# Copyright (C) 2024 SebaUbuntu's TWRP device tree generator
+# Copyright (C) 2024 The Android Open Source Projec
 #
 # SPDX-License-Identifier: Apache-2.0
 #

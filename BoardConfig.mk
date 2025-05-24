@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/hongyao/s20_xbw_gl
+DEVICE_PATH := device/SUBOR/c2
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -33,8 +33,8 @@ BOARD_KERNEL_TAGS_OFFSET := 0x0df88000
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
-TARGET_KERNEL_CONFIG := s20_xbw_gl_defconfig
-TARGET_KERNEL_SOURCE := kernel/hongyao/s20_xbw_gl
+TARGET_KERNEL_CONFIG := c2_defconfig
+TARGET_KERNEL_SOURCE := kernel/SUBOR/c2
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -73,3 +73,7 @@ TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
+TW_INCLUDE_CRYPTO := true
+
+# TWRP Version
+TW_DEVICE_VERSION := $(shell date -u +"%Y%m%d"-"A-Mistake")

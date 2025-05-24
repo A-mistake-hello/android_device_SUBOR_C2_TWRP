@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),s20_xbw_gl)
+ifeq ($(TARGET_DEVICE),c2)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

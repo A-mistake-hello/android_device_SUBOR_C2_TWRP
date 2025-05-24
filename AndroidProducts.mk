@@ -6,9 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_s20_xbw_gl.mk
+    $(LOCAL_DIR)/omni_c2.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_s20_xbw_gl-user \
-    omni_s20_xbw_gl-userdebug \
-    omni_s20_xbw_gl-eng
+    omni_c2-userdebug \
